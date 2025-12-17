@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn to Fly 2</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    ruffle-player {
+      /* Adjust these if you know the SWF's native size */
+      width: 800px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <ruffle-player
+    src="LearnToFly2.swf"
+    autoplay="on"
+    unmute-overlay="hidden"
+    splash-screen="false"
+  ></ruffle-player>
+
+  <!-- Load Ruffle from CDN -->
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</body>
+</html>
